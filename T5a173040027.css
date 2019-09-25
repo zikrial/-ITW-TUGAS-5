@@ -1,0 +1,127 @@
+body {
+  font-family: calibri;
+  background-image: url(inilucu.jpg);
+  background-repeat: repeat;
+}
+
+menu{
+    height: 30px;
+  text-align: left;
+  background-color: darkblue;
+  margin-top: 0px;
+}
+menu ul {
+    display: inline-block; 
+  list-style: none;
+}
+menu ul li {
+    text-align: center;
+    float: left;
+}
+menu ul li a{
+    display: block;
+  color: white;
+  text-decoration: none;
+  padding: 0px 90px;
+  line-height: 30px;
+  margin-left: -80px;
+}
+menu ul li a:hover{
+    background-color: #FFF;
+    color: black;
+}
+
+/* Batas antara untuk navbar dan halaman */
+
+.topbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 30px;
+  background-color: blue;
+  border-bottom: 2px solid purple;
+  z-index: 10101010;
+  color: white;
+  padding-top: 15px;
+  padding-left: 10px;
+}
+
+.container {
+  border: 1px solid purple;
+  width: 960px;
+  margin: 80px auto;
+  background-color: lightblue;
+  position: relative;
+}
+h1 {
+  width: inherit;
+  color: white;
+  text-align: left;
+  height: 100px;
+  background-color: blue;
+  line-height: 100px;
+  font-size: 80px;
+  margin: 0px;
+}
+h3 {
+  font-size: 50px;
+  margin: auto;
+  color: black;
+}
+p {
+  padding: 8px;
+  text-indent: 20px;
+  text-align: justify;
+}
+.footer {
+  height: 60px;
+  background-color: purple;
+  line-height: 40px;
+}
+#pfooter {
+  color: white;
+  text-align: center;
+}
+.main {
+  width: 700px;
+  margin-right: 20px;
+  border-right: 1px solid #333;
+  padding-right: 20px;
+  margin-bottom: 100px;
+  height: 450px;
+  float: left;
+}
+.other {
+  clear: both;
+}
+.bio div {
+  width: 180px;
+  float: left;
+  text-align: justify;
+  margin: auto;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.tentang {
+  font-weight: bold; 
+}
+.image1 img {
+  width: 960px;
+  height: 450px;
+  margin-top: -15px;
+}
+.image2 img {
+  margin: auto;
+}
+.facebook {
+  width: 200px;
+  height: 200px;
+  background-image: url(facebookicon.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  text-indent: -99999px;
+  position: absolute;
+  top: -22px;
+  right: -30px;
+}

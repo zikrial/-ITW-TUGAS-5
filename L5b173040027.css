@@ -1,0 +1,62 @@
+.login {
+	width: 280px;
+	height: 250px;
+	background-color: lightblue;
+	margin: 0 auto;
+	position: relative;
+}
+.ghost {
+	width: 200px;
+	padding: 8px;
+	color: #fff;
+	border: 1px solid #fff;
+	text-align: center;
+	margin-bottom: 10px;
+	font-size: 15px;
+	color: black;
+	cursor: hand;
+	outline: 1px solid white;
+}
+.center {
+	margin: 0 auto;
+	width: 200px;
+}
+.user {
+	width: 120px;
+	margin: 0 auto;
+}
+.user, img {
+	width: 100px;
+}
+.btn {
+	width: 120px;
+	padding: 8px;
+	color: #fff;
+	border: 1px solid #fff;
+	text-align: center;
+	font-size: 15px;
+	color: black;
+}
+.xbtn {
+	position: fixed;
+	right: 534px;
+}
+.login .xbtn img{
+	width: 30px;
+	border-radius: 100px;
+	border: 1px solid black;
+	left: : 100px;
+}
+.kembalindex:link, .kembalindex:visited {
+    background-color: blue;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 530px;
+}
+
+.kembalindex:hover, .kembalindex:active {
+    background-color: darkblue;
+}
